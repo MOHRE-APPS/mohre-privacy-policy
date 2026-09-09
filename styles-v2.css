@@ -55,29 +55,6 @@ a:hover { color: #5f4217; }
 .brand { display: inline-flex; text-decoration: none; }
 .brand img { display: block; width: 310px; max-width: 42vw; height: auto; }
 
-.search-box {
-  width: min(305px, 33vw);
-  height: 54px;
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  padding: 0 1.15rem;
-  color: #8b8f96;
-  border: 2px solid var(--gold);
-  border-radius: 0.65rem;
-  font-size: 1rem;
-  text-decoration: none;
-}
-
-.search-box svg {
-  width: 24px;
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 1.8;
-}
-
 .page-shell { padding-top: 3.4rem; }
 
 .breadcrumbs {
@@ -212,8 +189,6 @@ footer { color: #e8e2d9; background: #28241f; }
 
   .utility-bar { min-height: 82px; }
   .brand img { width: 245px; max-width: 68vw; }
-  .search-box { width: 46px; height: 46px; justify-content: center; padding: 0; }
-  .search-box span { display: none; }
   .page-shell { padding-top: 2rem; }
   .breadcrumbs { margin-bottom: 1.6rem; }
   .hero { min-height: 165px; border-radius: 0.65rem; }
