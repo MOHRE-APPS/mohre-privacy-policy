@@ -157,7 +157,7 @@ a:hover { color: #5f4217; }
   overflow: hidden;
   place-items: center;
   color: white;
-  background: linear-gradient(120deg, #c4a263, #b58d43 48%, #c5a364);
+  background: #c4a46c url("inner-banner-bg.jpg") center / cover no-repeat;
   border-radius: 0.9rem;
 }
 
@@ -169,6 +169,8 @@ a:hover { color: #5f4217; }
   content: "";
   pointer-events: none;
 }
+
+.hero-pattern { display: none; }
 
 .hero-pattern::before {
   left: -12%;
@@ -248,9 +250,9 @@ footer { color: #e8e2d9; background: #28241f; }
 .footer-inner p { margin: 0; }
 .footer-inner a { color: #dec486; }
 
-@media (max-width: 1040px) {
-  .nav-links { overflow-x: auto; padding-block: 1rem; }
-  .official-link { display: none; }
+@media (max-width: 1220px) {
+  .nav-links { display: none; }
+  .official-link { display: block; margin-left: auto; }
 }
 
 @media (max-width: 700px) {
@@ -264,8 +266,6 @@ footer { color: #e8e2d9; background: #28241f; }
   .search-box { width: 46px; height: 46px; justify-content: center; padding: 0; }
   .search-box span { display: none; }
   .nav-inner { min-height: 58px; }
-  .nav-links { gap: 1.25rem; }
-  .nav-links a { font-size: 0.87rem; }
   .page-shell { padding-top: 2rem; }
   .breadcrumbs { margin-bottom: 1.6rem; }
   .hero { min-height: 165px; border-radius: 0.65rem; }
